@@ -1,0 +1,47 @@
+Name: MyVariables
+Type: FolderType
+Children:
+- Name: VarInt32
+  Id: g=ef88106b6a602707002bb0d37d59ae15
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: VarBool
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: VarArrayInt
+  Type: BaseDataVariableType
+  DataType: Int16
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [0,0,0,0,0,0,0,0,0,0]
+- Name: MyColor
+  Id: g=904289ec767435d51d16fcdc5bcf2077
+  Type: BaseDataVariableType
+  DataType: Color
+  Value: "#ff0000"
+- Name: LimMin
+  Id: g=c7a5dbc83080ef31a664a8ef3c64fe46
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: LimMax
+  Id: g=41a53e24d544e815b53bbde24696097f
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 300
+- Name: VarPLC
+  Id: g=148caaf63c0e14ed3c64b27bd7d823ae
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: IPOaddress
+  Id: g=57f3ff53ec05bd37980235cc86e4fa92
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "127.0.0.1"
+- Name: PLCaddress
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "192.168.0.50"

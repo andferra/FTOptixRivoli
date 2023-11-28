@@ -1,0 +1,76 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: MyVariables/MyVariables.yaml
+- Name: ObjectMotore
+  Id: g=0ec5817487f78e7f71254b75d4eb7684
+  Supertype: BaseObjectType
+  Children:
+  - Name: Velocita
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Frequenza
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: abilitazione
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: ObjectMotore1
+  Id: g=5ff66f16f66788d486bb67191d304bc9
+  Type: ObjectMotore
+  Children:
+  - Name: Velocita
+    Id: g=8617cda1281f63d4a0e1233247aafca8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 11
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Tank1/Level"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Frequenza
+    Id: g=efc886449dd7e9c3e0a6b38a30353e64
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 22
+  - Name: abilitazione
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: ObjectMotore2
+  Id: g=2a5cbf449a026e22e255608e07cbf3e2
+  Type: ObjectMotore
+  Children:
+  - Name: Velocita
+    Id: g=b1b2b7e3dd3e227c44651cd98e823203
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Tank2/Level"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Frequenza
+    Id: g=125e1c14b62c27c64c79af178a21ae4b
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 90
+  - Name: abilitazione
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
