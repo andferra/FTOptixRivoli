@@ -66,7 +66,6 @@ Children:
         DataType: DynamicLinkMode
         Value: 2
   - Name: Frequenza
-    Id: g=125e1c14b62c27c64c79af178a21ae4b
     Type: BaseDataVariableType
     DataType: Int32
     Value: 90

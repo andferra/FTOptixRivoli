@@ -2531,39 +2531,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 400.0
-  - Name: SpinBox4
-    Type: SpinBox
-    Children:
-    - Name: Value
-      Type: BaseDataVariableType
-      DataType: Double
-      Value: 0.0
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "{NodeId:ns=7;g=125e1c14-b62c-27c6-4c79-af178a21ae4b}"
-        Children:
-        - Name: Mode
-          Type: BaseVariableType
-          DataType: DynamicLinkMode
-          ModellingRule: Optional
-          Value: 2
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 80.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 630.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 435.0
   - Name: Button1
     Type: Button
     Children:
@@ -2582,3 +2549,8 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 10.0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#008000"
